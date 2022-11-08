@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ibm_quantum_challenge_fall_2022"
+version = "0.1.0"
+description = ""
+authors = ["Amr <akkk33@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+qiskit = "^0.39.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+python-dotenv = "^0.21.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
